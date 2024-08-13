@@ -99,65 +99,10 @@ The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 - **LSTM Units**: 512
 
 **Performance Metrics:**
+<p align="center">
+  <img src="https://drive.google.com/file/d/1uQCVrJfQrCmCxyBTfB8lnm8I_3374qHC/view?usp=sharing' alt="Performance Metrics" width="50%">
+</p>
 
-| Model                      | MSE      | MAE      |
-|----------------------------|----------|----------|
-| RNN                        | 0.015346 | 0.084491 |
-| LSTM                       | 0.003088 | 0.025929 |
-| Stacked LSTM               | 0.002967 | 0.024929 |
-| **Bidirectional ConvLSTM** | **0.002586** | **0.021042** |
-| WaveNet                    | 0.005125 | 0.048105 |
-| Seq2Seq + Attention        | 0.003140 | 0.027030 |
-| ResNet                     | 0.004492 | 0.038672 |
-
-<center>
-  <table>
-    <thead>
-      <tr>
-        <th>Model</th>
-        <th>MSE</th>
-        <th>MAE</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>RNN</td>
-        <td>0.015346</td>
-        <td>0.084491</td>
-      </tr>
-      <tr>
-        <td>LSTM</td>
-        <td>0.003088</td>
-        <td>0.025929</td>
-      </tr>
-      <tr>
-        <td>Stacked LSTM</td>
-        <td>0.002967</td>
-        <td>0.024929</td>
-      </tr>
-      <tr>
-        <td><strong>Bidirectional ConvLSTM</strong></td>
-        <td><strong>0.002586</strong></td>
-        <td><strong>0.021042</strong></td>
-      </tr>
-      <tr>
-        <td>WaveNet</td>
-        <td>0.005125</td>
-        <td>0.048105</td>
-      </tr>
-      <tr>
-        <td>Seq2Seq + Attention</td>
-        <td>0.003140</td>
-        <td>0.027030</td>
-      </tr>
-      <tr>
-        <td>ResNet</td>
-        <td>0.004492</td>
-        <td>0.038672</td>
-      </tr>
-    </tbody>
-  </table>
-</center>
 ---
 
 [^1]: *Reference for Pre-padding*: [Pre-padding in LSTM Models](https://arxiv.org/abs/1503.04069)
