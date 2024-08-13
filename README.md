@@ -91,6 +91,7 @@ The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1qtTPLOLixGq3GFMyOBWptCci3hdscmth" alt="Bidirectional ConvLSTM Architecture" width="50%">
 </p>
+
 **Hyperparameters:**
 
 - **Input Window Size**: 200
