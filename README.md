@@ -99,7 +99,7 @@ The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 - **LSTM Units**: 512
 
 **Performance Metrics:**
-
+<p align="center">
 | Model                      | MSE      | MAE      |
 |----------------------------|----------|----------|
 | RNN                        | 0.015346 | 0.084491 |
@@ -109,7 +109,7 @@ The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 | WaveNet                    | 0.005125 | 0.048105 |
 | Seq2Seq + Attention        | 0.003140 | 0.027030 |
 | ResNet                     | 0.004492 | 0.038672 |
-
+</p>
 ---
 
 [^1]: *Reference for Pre-padding*: [Pre-padding in LSTM Models](https://arxiv.org/abs/1503.04069)
