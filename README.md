@@ -88,8 +88,9 @@ This approach did not yield better results compared to the general **Bidirection
 
 The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 
-![Bidirectional ConvLSTM Architecture](https://drive.google.com/uc?export=view&id=1qtTPLOLixGq3GFMyOBWptCci3hdscmth)
-
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1qtTPLOLixGq3GFMyOBWptCci3hdscmth" alt="Bidirectional ConvLSTM Architecture" width="50%">
+</p>
 **Hyperparameters:**
 
 - **Input Window Size**: 200
