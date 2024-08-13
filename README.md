@@ -100,9 +100,8 @@ The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 
 **Performance Metrics:**
 <p align="center">
-  <img src="https://drive.google.com/file/d/1uQCVrJfQrCmCxyBTfB8lnm8I_3374qHC/view?usp=sharing' alt="Performance Metrics" width="50%">
+  <img src="https://drive.google.com/uc?export=view&id=1uQCVrJfQrCmCxyBTfB8lnm8I_3374qHC" alt="Performance Metrics" width="50%">
 </p>
-
 ---
 
 [^1]: *Reference for Pre-padding*: [Pre-padding in LSTM Models](https://arxiv.org/abs/1503.04069)
