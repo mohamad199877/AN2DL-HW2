@@ -110,9 +110,7 @@ The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 | Seq2Seq + Attention        | 0.003140 | 0.027030 |
 | ResNet                     | 0.004492 | 0.038672 |
 
-
-
-<p align="center">
+<center>
   <table>
     <thead>
       <tr>
@@ -159,7 +157,7 @@ The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
       </tr>
     </tbody>
   </table>
-</p>
+</center>
 ---
 
 [^1]: *Reference for Pre-padding*: [Pre-padding in LSTM Models](https://arxiv.org/abs/1503.04069)
