@@ -88,7 +88,7 @@ This approach did not yield better results compared to the general **Bidirection
 
 The chosen final model is the **Bidirectional ConvLSTM**, structured as follows:
 
-![Bidirectional ConvLSTM Architecture](Figures/bid_lstm.png)
+![Bidirectional ConvLSTM Architecture](https://drive.google.com/uc?export=view&id=1qtTPLOLixGq3GFMyOBWptCci3hdscmth)
 
 **Hyperparameters:**
 
